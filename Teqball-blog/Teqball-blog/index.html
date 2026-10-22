@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f3ed">
+    <meta
+      name="description"
+      content="Teqball memodifikasi teknik sepak bola dengan format permainan meja ala tenis meja. Kenali konsep, sejarah, aturan, dan tekniknya."
+    >
+    <title>Teqball: Permainan Modifikasi Sepak Bola dan Tenis Meja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#konten">Langsung ke artikel</a>
+
+    <header class="site-header">
+      <a class="brand" href="#atas" aria-label="NAKAZE SPORT, ke bagian atas">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/nakaze-sport-mark.svg" alt=""></span>
+        <span class="brand-name">NAKAZE<br><span>SPORT</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Buka menu navigasi"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigasi utama">
+        <a href="#pengertian">Konsep</a>
+        <a href="#sejarah">Sejarah</a>
+        <a href="#cara-bermain">Cara bermain</a>
+        <a href="#teknik">Teknik</a>
+        <a class="nav-cta" href="#masa-kini">Teqball hari ini <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="konten">
+      <section class="hero" id="atas" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> OLAHRAGA MODIFIKASI / PANDUAN PEMULA</p>
+          <h1 id="hero-title">Teqball:<br>sepak bola<br>bertemu<br><em>tenis meja.</em></h1>
+          <p class="hero-intro">
+            Teqball memadukan teknik memainkan bola dengan format reli di atas
+            meja. Tanpa raket, tanpa tangan—hanya sentuhan dan strategi.
+          </p>
+          <a class="text-link" href="#pengertian">
+            Pahami cara kerjanya <span aria-hidden="true">↓</span>
+          </a>
+          <div class="hero-meta">
+            <span>SEPAK BOLA × TENIS MEJA</span>
+            <span class="meta-divider"></span>
+            <span>OLAHRAGA MODERN</span>
+          </div>
+        </div>
+
+        <div class="hero-art" role="img" aria-label="Ilustrasi meja teqball lengkung dan bola">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <span class="art-index">01 — PERMAINAN MODIFIKASI</span>
+          <svg class="table-illustration" viewBox="0 0 620 470" aria-hidden="true">
+            <defs>
+              <linearGradient id="tableTop" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#cfff46"/>
+                <stop offset="1" stop-color="#a7dc1f"/>
+              </linearGradient>
+              <linearGradient id="tableEdge" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#8cbf16"/>
+                <stop offset="1" stop-color="#456610"/>
+              </linearGradient>
+              <radialGradient id="ball" cx="35%" cy="25%">
+                <stop offset="0" stop-color="#fffef5"/>
+                <stop offset="1" stop-color="#c9d2c4"/>
+              </radialGradient>
+              <filter id="ballShadow" x="-50%" y="-50%" width="200%" height="200%">
+                <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#071713" flood-opacity=".35"/>
+              </filter>
+            </defs>
+            <ellipse cx="320" cy="395" rx="224" ry="29" fill="#071713" opacity=".22"/>
+            <path d="M145 243v103c0 19 73 38 163 38s163-19 163-38V243H145Z" fill="url(#tableEdge)"/>
+            <path d="M185 330v68m232-68v68M309 340v72" fill="none" stroke="#263a14" stroke-linecap="round" stroke-width="12"/>
+            <path d="M91 239c43-53 117-82 219-82s176 29 219 82c-42 48-118 75-219 75S133 287 91 239Z" fill="#8fba24" opacity=".5"/>
+            <path d="M91 224c43-53 117-82 219-82s176 29 219 82c-42 48-118 75-219 75S133 272 91 224Z" fill="url(#tableTop)" stroke="#d9ff83" stroke-width="3"/>
+            <path d="M310 143v153M100 220c55 30 126 45 210 45s155-15 210-45" fill="none" stroke="#f4f7e8" stroke-width="3" opacity=".85"/>
+            <path d="M296 143h28" stroke="#173629" stroke-linecap="round" stroke-width="9"/>
+            <path d="M170 194c40-33 88-50 140-50s100 17 140 50" fill="none" stroke="#e4ffaf" stroke-width="2" opacity=".7"/>
+            <circle cx="424" cy="104" r="39" fill="url(#ball)" filter="url(#ballShadow)"/>
+            <path d="m424 76 15 11-6 18h-19l-6-18 16-11Zm-16 29-18 3-7 18 14 12 17-12-6-18Zm27 0 18 3 7 18-14 12-17-12 6-18Zm-2 39-9 11-18-5-5-18 15-10 17 11Zm-28 0-9 11-18-5-5-18 15-10 17 11Z" fill="#536b57"/>
+            <path d="M469 94c33-15 58-16 82-9" fill="none" stroke="#cfff46" stroke-dasharray="5 10" stroke-linecap="round" stroke-width="3"/>
+            <circle cx="557" cy="84" r="5" fill="#cfff46"/>
+          </svg>
+          <div class="art-caption">
+            <span>BOLA SEPAK</span>
+            <span>↗ FORMAT PERMAINAN MEJA</span>
+          </div>
+          <span class="art-vertical-label">CONTROL / BALANCE / PLAY</span>
+        </div>
+        <div class="hero-bottom">
+          <span>01 / 06</span>
+          <span class="hero-bottom-line"></span>
+          <span>KENALI CAMPURAN DUA OLAHRAGA</span>
+        </div>
+      </section>
+
+      <section class="article-layout section-shell" id="pengertian">
+        <aside class="article-rail" aria-label="Daftar isi artikel">
+          <p class="rail-label">DI ARTIKEL INI</p>
+          <a class="rail-link is-active" href="#pengertian"><span>01</span> Konsep</a>
+          <a class="rail-link" href="#sejarah"><span>02</span> Sejarah</a>
+          <a class="rail-link" href="#cara-bermain"><span>03</span> Cara bermain</a>
+          <a class="rail-link" href="#alat"><span>04</span> Peralatan</a>
+          <a class="rail-link" href="#teknik"><span>05</span> Teknik dasar</a>
+          <a class="rail-link" href="#masa-kini"><span>06</span> Masa kini</a>
+          <div class="rail-note">
+            <span class="note-icon" aria-hidden="true">↗</span>
+            <p>Olahraga baru yang berangkat dari kecintaan pada sepak bola.</p>
+          </div>
+        </aside>
+
+        <article class="article-content">
+          <div class="article-kicker"><span>01</span><span class="kicker-rule"></span><span>GAGASAN DI BALIK PERMAINAN</span></div>
+          <h2>Sepak bola bertemu tenis meja—<em>apa yang berubah?</em></h2>
+          <p class="article-lead">
+            Teqball adalah olahraga yang dikembangkan di Hungaria pada 2012,
+            memadukan teknik sepak bola dengan pola permainan meja yang
+            mengingatkan pada tenis meja.
+          </p>
+          <p>
+            Yang diambil dari sepak bola adalah bola dan cara memainkannya:
+            pemain mengontrol serta mengembalikan bola menggunakan kaki, paha,
+            dada, atau kepala. Yang diadaptasi dari tenis meja adalah
+            suasananya—dua sisi yang dipisahkan net, reli bergantian, servis,
+            dan perebutan poin di atas sebuah meja.
+          </p>
+          <p>
+            Namun teqball bukan tenis meja yang dimainkan memakai bola sepak:
+            pemain tidak menggunakan raket, tidak boleh menyentuh bola dengan
+            tangan, dan lapangannya memakai meja khusus yang melengkung.
+            Lengkungan itu membantu bola kembali memantul ke arah pemain dan
+            membuat sentuhan serta penempatan bola menjadi inti permainan.
+          </p>
+
+          <div class="hybrid-grid" aria-label="Unsur sepak bola dan tenis meja dalam teqball">
+            <div class="hybrid-card football-card">
+              <span class="hybrid-label">DARI SEPAK BOLA</span>
+              <strong>Bola &amp; teknik kaki</strong>
+              <p>Kontrol, passing, volley, paha, dada, dan heading.</p>
+              <span class="hybrid-symbol" aria-hidden="true">01</span>
+            </div>
+            <div class="hybrid-connector" aria-hidden="true"><span>+</span></div>
+            <div class="hybrid-card table-card">
+              <span class="hybrid-label">DARI TENIS MEJA</span>
+              <strong>Net, reli &amp; poin</strong>
+              <p>Permainan berhadapan di dua sisi meja, dengan servis dan reli.</p>
+              <span class="hybrid-symbol" aria-hidden="true">02</span>
+            </div>
+          </div>
+
+          <p class="hybrid-takeaway">
+            <strong>Hasil modifikasinya:</strong> permainan bola tanpa raket dan
+            tanpa sentuhan tangan, di atas meja lengkung yang dirancang khusus.
+          </p>
+
+          <div class="fact-strip">
+            <div><strong>1 × 1</strong><span>format tunggal</span></div>
+            <div><strong>2 × 2</strong><span>format ganda</span></div>
+            <div><strong>3 sentuhan</strong><span>paling banyak sebelum dikembalikan</span></div>
+          </div>
+
+          <section class="article-section" id="sejarah">
+            <div class="article-kicker"><span>02</span><span class="kicker-rule"></span><span>DARI HUNGARIA KE DUNIA</span></div>
+            <h2>Dari latihan sepak bola<br>menjadi olahraga <em>baru.</em></h2>
+            <p>
+              Gagasan teqball lahir di Hungaria pada 2012 dari keinginan
+              menggabungkan kecintaan terhadap sepak bola dengan latihan
+              kontrol bola yang lebih terarah. Meja yang dirancang khusus
+              menjadikan latihan itu sebuah permainan tersendiri: ada lawan,
+              reli, servis, serta poin.
+            </p>
+            <p>
+              Dari konsep tersebut, teqball berkembang menjadi olahraga dengan
+              peraturan internasional dan kompetisi tersendiri. Inti
+              modifikasinya tetap sama: teknik sepak bola dimainkan dalam
+              format duel meja, tetapi tanpa raket dan tanpa tangan.
+            </p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-year">2012</span>
+                <p>Teqball mulai dikembangkan di Hungaria.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">2017</span>
+                <p>Kejuaraan Dunia Teqball pertama menandai pertumbuhan format kompetitifnya.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">2026</span>
+                <p>Teqball tampil sebagai cabang medali di Asian Games Aichi–Nagoya.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="article-section" id="cara-bermain">
+            <div class="article-kicker"><span>03</span><span class="kicker-rule"></span><span>ATURAN DASAR</span></div>
+            <h2>Bagaimana format<br>mejanya <em>bekerja?</em></h2>
+            <p>
+              Seperti tenis meja, permainan berlangsung dalam reli melewati
+              net. Bedanya, pemain teqball harus memainkan bola dengan anggota
+              tubuh selain tangan, sementara bidang mejanya memiliki bentuk
+              khusus. Gambaran dasarnya:
+            </p>
+            <ol class="play-steps">
+              <li>
+                <span class="step-number">01</span>
+                <div><h3>Servis membuka reli</h3><p>Pemain memulai permainan dengan servis ke meja lawan. Servis dan pergantian giliran mengikuti ketentuan pertandingan.</p></div>
+              </li>
+              <li>
+                <span class="step-number">02</span>
+                <div><h3>Susun sentuhan</h3><p>Satu pemain atau pasangan boleh menggunakan paling banyak tiga sentuhan untuk mengembalikan bola melewati net.</p></div>
+              </li>
+              <li>
+                <span class="step-number">03</span>
+                <div><h3>Mainkan dengan tubuh, bukan raket</h3><p>Kaki, paha, dada, dan kepala dapat digunakan. Tangan dan lengan tidak digunakan untuk memainkan bola.</p></div>
+              </li>
+              <li>
+                <span class="step-number">04</span>
+                <div><h3>Arahkan bola ke meja lawan</h3><p>Bola diarahkan ke permukaan meja lawan. Pemain tidak boleh menyentuh meja saat reli berlangsung.</p></div>
+              </li>
+              <li>
+                <span class="step-number">05</span>
+                <div><h3>Menangkan reli</h3><p>Poin didapat saat lawan gagal mengembalikan bola sesuai aturan. Sistem set dan skor mengikuti regulasi pertandingan.</p></div>
+              </li>
+            </ol>
+            <p class="small-note">
+              Ini ringkasan untuk mengenal permainan. Aturan resmi juga mengatur detail servis, urutan sentuhan, pergantian servis, dan format ganda.
+            </p>
+          </section>
+
+          <section class="article-section equipment-section" id="alat">
+            <div class="article-kicker"><span>04</span><span class="kicker-rule"></span><span>SIAPKAN PERLENGKAPAN</span></div>
+            <h2>Peralatan yang<br>membuatnya <em>teqball.</em></h2>
+            <p>
+              Perlengkapannya relatif sederhana, tetapi meja khusus adalah
+              meja, bola, dan net membentuk arena permainan yang tidak sama
+              dengan meja tenis meja biasa.
+            </p>
+            <div class="equipment-grid">
+              <div class="equipment-card equipment-table">
+                <span class="equipment-number">A / ARENA</span>
+                <div class="mini-table" aria-hidden="true"><span></span></div>
+                <h3>Meja teqball</h3>
+                <p>Permukaan melengkung dan net di tengah menjadi ciri khasnya. Meja resmi harus mengikuti ketentuan FITEQ.</p>
+              </div>
+              <div class="equipment-card equipment-ball">
+                <span class="equipment-number">B / BOLA</span>
+                <div class="mini-ball" aria-hidden="true"></div>
+                <h3>Bola sepak</h3>
+                <p>Berbeda dari tenis meja, teqball memakai bola sepak. Spesifikasi bola untuk pertandingan mengikuti aturan kompetisi.</p>
+              </div>
+              <div class="equipment-card equipment-shoes">
+                <span class="equipment-number">C / PEMAIN</span>
+                <div class="shoe-mark" aria-hidden="true">+</div>
+                <h3>Pakaian olahraga</h3>
+                <p>Gunakan pakaian yang nyaman dan alas kaki yang cocok dengan permukaan lapangan tempat bermain.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="article-section" id="teknik">
+            <div class="article-kicker"><span>05</span><span class="kicker-rule"></span><span>LATIHAN DASAR</span></div>
+            <h2>Teknik sepak bola,<br>tantangan di <em>meja.</em></h2>
+            <p>
+              Pemain membawa teknik sepak bola ke ruang yang lebih sempit dan
+              permainan yang bergantian. Akurasi, kontrol pantulan, serta
+              keputusan tentang sentuhan berikutnya sama pentingnya dengan
+              tenaga.
+            </p>
+            <div class="technique-list">
+              <div class="technique-row"><span>01</span><div><h3>Kontrol bola</h3><p>Redam bola dengan kaki, paha, atau dada agar sentuhan pertama tetap terarah.</p></div><span class="technique-arrow" aria-hidden="true">↗</span></div>
+              <div class="technique-row"><span>02</span><div><h3>Passing</h3><p>Kirim bola dengan akurat dan atur kecepatan agar pantulan mudah dikendalikan.</p></div><span class="technique-arrow" aria-hidden="true">↗</span></div>
+              <div class="technique-row"><span>03</span><div><h3>Volley dan heading</h3><p>Kembalikan bola sebelum jatuh, menggunakan kaki atau kepala sesuai situasi.</p></div><span class="technique-arrow" aria-hidden="true">↗</span></div>
+              <div class="technique-row"><span>04</span><div><h3>Footwork</h3><p>Atur langkah kecil untuk menjaga keseimbangan dan berada di posisi yang tepat.</p></div><span class="technique-arrow" aria-hidden="true">↗</span></div>
+              <div class="technique-row"><span>05</span><div><h3>Membaca pantulan</h3><p>Amati arah bola dari meja dan siapkan pilihan sentuhan berikutnya sejak awal.</p></div><span class="technique-arrow" aria-hidden="true">↗</span></div>
+            </div>
+          </section>
+
+          <section class="article-section present-section" id="masa-kini">
+            <div class="article-kicker"><span>06</span><span class="kicker-rule"></span><span>OLAHRAGA YANG TERUS BERTUMBUH</span></div>
+            <h2>Teqball di <em>masa kini.</em></h2>
+            <p>
+              Teqball telah berkembang dari gagasan permainan modifikasi
+              menjadi olahraga internasional. FITEQ melaporkan jaringan lebih
+              dari 150 federasi nasional di lima benua.
+            </p>
+            <p>
+              Perkembangan itu terlihat di panggung multi-olahraga: teqball
+              tampil sebagai cabang perebutan medali pada Asian Games
+              Aichi–Nagoya 2026. Kejuaraan Dunia 2026 juga dijadwalkan
+              berlangsung di Budapest, Hungaria, pada 1–6 Desember. Dua ajang
+              ini menunjukkan bahwa format yang memadukan keterampilan sepak
+              bola dan permainan meja kini memiliki jalur kompetisi
+              internasional.
+            </p>
+            <div class="closing-card">
+              <span class="closing-stamp">TAKE IT<br>TO THE TABLE</span>
+              <p>Dua olahraga bertemu di satu meja.<br><strong>Itulah teqball.</strong></p>
+              <a href="#atas" aria-label="Kembali ke bagian atas">↑</a>
+            </div>
+          </section>
+
+          <section class="sources" aria-labelledby="sources-title">
+            <p class="rail-label" id="sources-title">SUMBER & BACAAN LANJUTAN</p>
+            <ol>
+              <li><a href="https://www.fiteq.org/teqball" target="_blank" rel="noreferrer">International Teqball Federation (FITEQ) — Introduction to Teqball (asal, konsep, format, dan sentuhan)</a></li>
+              <li><a href="https://www.fiteq.org/news/1065" target="_blank" rel="noreferrer">FITEQ — Teqball Makes a Spectacular Asian Games Debut (Aichi–Nagoya 2026)</a></li>
+              <li><a href="https://www.fiteq.org/news/1067" target="_blank" rel="noreferrer">FITEQ — Budapest to Host the Teqball World Championships 2026</a></li>
+            </ol>
+            <p class="source-note">Informasi dirangkum untuk pengenalan umum. Aturan dan jadwal dapat berubah; gunakan regulasi resmi untuk kompetisi.</p>
+          </section>
+        </article>
+      </section>
+
+      <section class="outro">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> NAKAZE SPORT / END OF GUIDE</p>
+        <p>Dua olahraga, satu permainan.<br><em>Kenali teqball.</em></p>
+        <a href="#atas" class="outro-link">KEMBALI KE ATAS <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#atas" aria-label="NAKAZE SPORT, ke bagian atas">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/nakaze-sport-mark.svg" alt=""></span>
+        <span class="brand-name">NAKAZE<br><span>SPORT</span></span>
+      </a>
+      <p>Catatan singkat untuk mengenal olahraga yang bergerak.</p>
+      <span class="footer-credit">PANDUAN OLAHRAGA / 2026</span>
+    </footer>
+  </body>
+</html>
